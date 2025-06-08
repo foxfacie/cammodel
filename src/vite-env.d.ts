@@ -1,25 +1,5 @@
 /// <reference types="vite/client" />
 
-declare module 'react' {
-  interface JSX {
-    IntrinsicElements: {
-      [elemName: string]: any;
-    };
-  }
-}
-
-declare module 'framer-motion' {
-  export * from 'framer-motion';
-}
-
-declare module 'lucide-react' {
-  export * from 'lucide-react';
-}
-
-declare module 'react-intersection-observer' {
-  export * from 'react-intersection-observer';
-}
-
 declare module '*.svg' {
   const content: any;
   export default content;
