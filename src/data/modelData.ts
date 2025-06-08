@@ -83,6 +83,7 @@ export const platformData: PlatformData[] = [
     color: '#00AFF0',
     isLive: true,
     followers: 150000,
+    likes: 2500000,
     price: 9.99,
     description: 'Daily exclusive photos and videos'
   },
@@ -93,6 +94,7 @@ export const platformData: PlatformData[] = [
     color: '#9333EA',
     isLive: true,
     followers: 120000,
+    likes: 1800000,
     price: 12.99,
     description: 'Premium content and special requests'
   },
@@ -103,6 +105,7 @@ export const platformData: PlatformData[] = [
     color: '#FF69B4',
     isLive: false,
     followers: 80000,
+    likes: 950000,
     price: 19.99,
     description: 'Full-length videos and custom content'
   }
@@ -191,14 +194,15 @@ export const videoItems: VideoItem[] = [
     likes: 3256
   },
   {
-    id: 4,
+    id: "4",
     title: "Workout Session",
     description: "Full gym workout routine",
     thumbnailUrl: "https://images.pexels.com/photos/2773480/pexels-photo-2773480.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    videoUrl: "#",
     duration: "24:15",
     isPremium: true,
     views: 9876,
-    category: "fitness"
+    likes: 3421
   }
 ];
 

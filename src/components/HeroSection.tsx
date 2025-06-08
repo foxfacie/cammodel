@@ -136,7 +136,7 @@ const HeroSection: React.FC = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <Logo variant="large" />
+            <Logo />
           </motion.div>
 
           {/* Hero Text */}

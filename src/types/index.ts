@@ -15,6 +15,7 @@ export interface PlatformData {
   color: string;
   isLive: boolean;
   followers: number;
+  likes: number;
   price: number;
   description: string;
 }
