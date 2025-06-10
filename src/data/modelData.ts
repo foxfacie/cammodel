@@ -114,46 +114,28 @@ export const platformData: PlatformData[] = [
 export const tierOptions: TierOption[] = [
   {
     id: 1,
-    name: "OnlyFans",
-    price: 9.99,
+    name: "Instagram",
+    price: 0,
     description: "Daily exclusive photos and videos",
     features: [
-      "Full photo gallery access",
-      "Daily exclusive posts",
-      "HD photos and videos",
-      "Direct messaging",
-      "Custom content requests",
-      "Behind the scenes content"
     ],
     isPopular: true
   },
   {
     id: 2,
-    name: "Fansly",
-    price: 12.99,
+    name: "Twitter",
+    price: 0,
     description: "Premium content and special requests",
     features: [
-      "Exclusive photo sets",
-      "Premium video content",
-      "Priority messaging",
-      "Custom requests",
-      "Live streaming access",
-      "Special events"
     ],
     isPopular: false
   },
   {
     id: 3,
-    name: "ManyVids",
-    price: 19.99,
+    name: "Youtube",
+    price: 0,
     description: "Full-length videos and custom content",
     features: [
-      "Full-length videos",
-      "4K video quality",
-      "Exclusive photoshoots",
-      "Custom video requests",
-      "Priority support",
-      "Early access to new content"
     ],
     isPopular: false
   }
@@ -260,7 +242,7 @@ export const testimonials: Testimonial[] = [
     id: 3,
     name: "David K.",
     avatar: "https://i.pravatar.cc/150?img=13",
-    comment: "Been subscribed for 6 months and the content just keeps getting better. Highly recommend VIP tier.",
+    comment: "Been subscribed for 6 months and the content just keeps getting better. Highly recommend.",
     rating: 4
   }
 ];
