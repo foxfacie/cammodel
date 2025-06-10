@@ -114,7 +114,7 @@ const Footer = () => {
       icon: Heart,
       color: 'from-purple-500 to-pink-500',
       followers: '50K+',
-      price: '$12.99/month'
+      price: ' '
     },
     {
       name: 'ManyVids',
