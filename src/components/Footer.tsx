@@ -82,13 +82,13 @@ const Footer = () => {
       color: 'from-pink-600 to-purple-600'
     },
     { 
-      label: 'Private Messages',
+      label: 'Brand Messages',
       icon: MessageCircle,
       description: 'Direct chat access',
       color: 'from-blue-500 to-indigo-600'
     },
     { 
-      label: 'Custom Content',
+      label: 'Colab Content',
       icon: Camera,
       description: 'Personalized requests',
       color: 'from-green-500 to-teal-600'
@@ -103,14 +103,14 @@ const Footer = () => {
 
   const platforms: Platform[] = [
     {
-      name: 'OnlyFans',
+      name: 'Instagram',
       icon: Users,
       color: 'from-blue-500 to-blue-700',
       followers: '100K+',
-      price: '$9.99/month'
+      price: ' '
     },
     {
-      name: 'Fansly',
+      name: 'Twitter',
       icon: Heart,
       color: 'from-purple-500 to-pink-500',
       followers: '50K+',
