@@ -117,11 +117,11 @@ const Footer = () => {
       price: ' '
     },
     {
-      name: 'ManyVids',
+      name: 'Snapchat',
       icon: Camera,
       color: 'from-pink-500 to-red-500',
       followers: '75K+',
-      price: 'From $19.99'
+      price: ' '
     }
   ];
 
