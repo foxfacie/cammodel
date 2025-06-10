@@ -93,12 +93,7 @@ const Footer = () => {
       description: 'Personalized requests',
       color: 'from-green-500 to-teal-600'
     },
-    { 
-      label: 'VIP Benefits',
-      icon: Star,
-      description: 'Exclusive perks and rewards',
-      color: 'from-yellow-500 to-orange-600'
-    }
+    
   ];
 
   const platforms: Platform[] = [
