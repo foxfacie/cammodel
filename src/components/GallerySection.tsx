@@ -58,7 +58,7 @@ const GalleryCard: React.FC<{ item: GalleryItem; onClick: () => void }> = ({ ite
           {item.isPremium && (
             <div className="bg-gradient-to-r from-pink-600 to-purple-600 text-white text-xs px-3 py-1 rounded-full flex items-center gap-1">
               <Lock className="h-3 w-3" />
-              Premium
+              Model
             </div>
           )}
         </motion.div>
