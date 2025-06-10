@@ -47,9 +47,9 @@ const PricingCard = ({ tier, index }: PricingCardProps) => {
 
   const getTierColor = () => {
     switch (tier.name) {
-      case 'OnlyFans': return '#00AFF0';
-      case 'Fansly': return '#9333EA';
-      case 'ManyVids': return '#FF69B4';
+      case 'Instagram': return '#00AFF0';
+      case 'Twitter': return '#9333EA';
+      case 'Youtube': return '#FF69B4';
       default: return '#FF69B4';
     }
   };
