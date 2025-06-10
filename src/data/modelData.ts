@@ -78,7 +78,7 @@ export const galleryItems: GalleryItem[] = [
 export const platformData: PlatformData[] = [
   {
     id: '1',
-    name: 'OnlyFans',
+    name: 'Instagram',
     url: '#',
     color: '#00AFF0',
     isLive: true,
@@ -89,7 +89,7 @@ export const platformData: PlatformData[] = [
   },
   {
     id: '2',
-    name: 'Fansly',
+    name: 'Twitter',
     url: '#',
     color: '#9333EA',
     isLive: true,
@@ -100,7 +100,7 @@ export const platformData: PlatformData[] = [
   },
   {
     id: '3',
-    name: 'ManyVids',
+    name: 'Youtube',
     url: '#',
     color: '#FF69B4',
     isLive: false,
