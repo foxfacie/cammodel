@@ -556,7 +556,7 @@ const PlatformSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             Step into my digital boudoir across multiple platforms. Each offers a unique window into my world of 
-            <span className="text-accent-400 font-medium">exclusive experiences</span> 
+            <span className="text-accent-400 font-medium"> exclusive experiences </span> 
             designed with love.
           </motion.p>
 
