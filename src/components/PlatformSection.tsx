@@ -625,8 +625,8 @@ const PlatformSection: React.FC = () => {
             </motion.div>
             
             <p className="text-platinum-200 text-lg mb-8 leading-relaxed">
-              Choose your preferred platform and dive into a world of exclusive content, personal interactions, and intimate moments. 
-              <span className="text-accent-400 font-medium"> Your fantasy is just one click away.</span>
+              Choose your preferred platform and dive into a world of exclusive content
+              <span className="text-accent-400 font-medium"> Just one click away.</span>
             </p>
 
             <motion.button
@@ -647,7 +647,7 @@ const PlatformSection: React.FC = () => {
               transition={{ duration: 2, repeat: 1000 }}
             >
               <Lock className="h-5 w-5 mr-2" />
-              Unlock All Platforms
+              Follow All Platforms
               <Star className="h-5 w-5 ml-2" />
             </motion.button>
           </div>
