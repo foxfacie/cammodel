@@ -55,10 +55,10 @@ const GalleryCard: React.FC<{ item: GalleryItem; onClick: () => void }> = ({ ite
             <Heart className="h-4 w-4 mr-1 text-accent-400" />
             <span className="text-sm">{item.likes.toLocaleString()}</span>
           </div>
-          {item.isModel && (
+          {item.isPremium && (
             <div className="bg-gradient-to-r from-pink-600 to-purple-600 text-white text-xs px-3 py-1 rounded-full flex items-center gap-1">
               <Lock className="h-3 w-3" />
-              Model
+              Premium
             </div>
           )}
         </motion.div>
@@ -174,7 +174,7 @@ const GallerySection: React.FC = () => {
 
           <h2 className="text-4xl md:text-5xl font-playfair font-bold mb-6">
             <span className="bg-gradient-to-r from-accent-400 to-purple-400 bg-clip-text text-transparent">
-              Premium
+              Model
             </span>
             <span className="text-white"> Gallery</span>
           </h2>
