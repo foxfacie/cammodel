@@ -568,7 +568,7 @@ const PlatformSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             {[
-              { icon: Monitor, label: "6 Platforms", value: "Active" },
+              { icon: Monitor, label: "3 Platforms", value: "Active" },
               { icon: Wifi, label: "Live Status", value: "Online" },
               { icon: Headphones, label: "24/7 Support", value: "Available" }
             ].map((stat, index) => (
