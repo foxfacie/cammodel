@@ -381,7 +381,7 @@ const PlatformCard: React.FC<{ platform: PlatformData; index: number }> = ({ pla
             whileHover={{ scale: 1.1, rotate: 5 }}
           >
             <Crown className="h-3 w-3 mr-1" />
-            VIP
+            Exclusive
           </motion.div>
         </div>
 
