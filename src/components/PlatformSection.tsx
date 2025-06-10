@@ -532,7 +532,7 @@ const PlatformSection: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <span className="bg-gradient-to-r from-accent-400 via-purple-400 to-accent-400 bg-clip-text text-transparent">
-              Exclusive Intimate
+              Exclusive Watchful
             </span>
             <br />
             <motion.span
