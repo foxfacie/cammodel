@@ -172,8 +172,8 @@ const Footer = () => {
             </motion.div>
             
             <p className="text-gray-300 mb-8 leading-relaxed">
-              Experience premium intimate content and exclusive personalized experiences. 
-              Join me on your favorite platform for special perks and private access.
+              E
+              J
             </p>
 
             {/* Social Links */}
