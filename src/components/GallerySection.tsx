@@ -55,7 +55,7 @@ const GalleryCard: React.FC<{ item: GalleryItem; onClick: () => void }> = ({ ite
             <Heart className="h-4 w-4 mr-1 text-accent-400" />
             <span className="text-sm">{item.likes.toLocaleString()}</span>
           </div>
-          {item.isPremium && (
+          {item.isModel && (
             <div className="bg-gradient-to-r from-pink-600 to-purple-600 text-white text-xs px-3 py-1 rounded-full flex items-center gap-1">
               <Lock className="h-3 w-3" />
               Model
