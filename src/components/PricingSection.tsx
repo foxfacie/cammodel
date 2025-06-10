@@ -47,9 +47,9 @@ const PricingCard = ({ tier, index }: PricingCardProps) => {
 
   const getTierColor = () => {
     switch (tier.name) {
-      case 'Instagram': return '#00AFF0';
-      case 'Twitter': return '#9333EA';
-      case 'Youtube': return '#FF69B4';
+      case 'OnlyFans': return '#00AFF0';
+      case 'Fansly': return '#9333EA';
+      case 'ManyVids': return '#FF69B4';
       default: return '#FF69B4';
     }
   };
@@ -103,70 +103,7 @@ const PricingCard = ({ tier, index }: PricingCardProps) => {
       </AnimatePresence>
 
       {/* Card Container */}
-      <motion.div
-        className="relative bg-black/40 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden h-full"
-        style={{
-          boxShadow: `0 0 40px ${tierColor}30, inset 0 2px 0 rgba(255,255,255,0.1)`,
-        }}
-        whileHover={{
-          boxShadow: `0 0 60px ${tierColor}60, inset 0 2px 0 rgba(255,255,255,0.2)`,
-          borderColor: `${tierColor}50`,
-        }}
-      >
-        {/* Animated Background */}
-        <motion.div
-          className="absolute inset-0 opacity-20"
-          style={{
-            background: `
-              radial-gradient(circle at 25% 25%, ${tierColor}20 0%, transparent 50%),
-              radial-gradient(circle at 75% 75%, ${tierColor}20 0%, transparent 50%),
-              linear-gradient(45deg, transparent 30%, ${tierColor}10 50%, transparent 70%)
-            `,
-          }}
-          animate={{
-            backgroundPosition: ['0% 0%', '100% 100%', '0% 0%'],
-            rotate: [0, 360],
-          }}
-          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-      />
-
-      {/* Most Popular Badge */}
-      {tier.isPopular && (
-        <motion.div
-          className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20"
-          initial={{ scale: 0, rotate: -180 }}
-          animate={{ scale: 1, rotate: 0 }}
-          transition={{ delay: index * 0.2 + 0.5, type: "spring", stiffness: 200 }}
-        >
-          <motion.div
-              className="bg-gradient-to-r from-pink-500 via-purple-500 to-pink-500 text-white px-6 py-2 rounded-full font-bold text-sm flex items-center shadow-lg"
-            animate={{
-              backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
-              boxShadow: [
-                  '0 0 20px rgba(236, 72, 153, 0.5)',
-                  '0 0 40px rgba(236, 72, 153, 0.8)',
-                  '0 0 20px rgba(236, 72, 153, 0.5)'
-                ]
-              }}
-              transition={{ duration: 3, repeat: Infinity }}
-            style={{ backgroundSize: '200% 200%' }}
-          >
-            <motion.div
-              animate={{ rotate: 360 }}
-                transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
-            >
-              <Crown className="h-4 w-4 mr-2" />
-            </motion.div>
-              Most Popular
-            <motion.div
-              animate={{ scale: [1, 1.2, 1] }}
-                transition={{ duration: 1, repeat: Infinity }}
-            >
-              <Sparkles className="h-4 w-4 ml-2" />
-            </motion.div>
-          </motion.div>
-        </motion.div>
-      )}
+      
 
         {/* Card Content */}
         <div className="relative p-8">
