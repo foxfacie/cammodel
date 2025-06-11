@@ -261,7 +261,7 @@ const TestimonialsSection: React.FC = () => {
                   />
                   <span className="relative flex items-center justify-center gap-2 text-white font-medium">
                     <Gift className="h-5 w-5" />
-                    <span>Get Premium Access</span>
+                    <span>Get Access</span>
                   </span>
               </motion.button>
 
