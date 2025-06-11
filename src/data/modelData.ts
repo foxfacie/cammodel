@@ -194,7 +194,7 @@ export const liveSchedule: LiveSchedule[] = [
     day: "Monday",
     date: "June 5",
     time: "8:00 PM EST",
-    platform: "OnlyFans",
+    platform: "Instagram",
     title: "Q&A Session"
   },
   {
@@ -202,7 +202,7 @@ export const liveSchedule: LiveSchedule[] = [
     day: "Wednesday",
     date: "June 7",
     time: "9:30 PM EST",
-    platform: "Fansly",
+    platform: "Twiiter",
     title: "Dance Night"
   },
   {
@@ -210,7 +210,7 @@ export const liveSchedule: LiveSchedule[] = [
     day: "Friday",
     date: "June 9",
     time: "10:00 PM EST",
-    platform: "Chaturbate",
+    platform: "Youtube",
     title: "Special Show"
   },
   {
@@ -218,7 +218,7 @@ export const liveSchedule: LiveSchedule[] = [
     day: "Saturday",
     date: "June 10",
     time: "7:00 PM EST",
-    platform: "MyFreeCams",
+    platform: "Snapchat",
     title: "Fan Requests"
   }
 ];
