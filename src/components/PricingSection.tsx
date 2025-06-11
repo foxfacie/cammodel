@@ -38,18 +38,18 @@ const PricingCard = ({ tier, index }: PricingCardProps) => {
 
   const getTierIcon = () => {
     switch (tier.name) {
-      case 'OnlyFans': return <Star className="h-8 w-8" />;
-      case 'Fansly': return <Heart className="h-8 w-8" />;
-      case 'ManyVids': return <Camera className="h-8 w-8" />;
+      case 'Instagram': return <Star className="h-8 w-8" />;
+      case 'Twitter': return <Heart className="h-8 w-8" />;
+      case 'Youtube': return <Camera className="h-8 w-8" />;
       default: return <Star className="h-8 w-8" />;
     }
   };
 
   const getTierColor = () => {
     switch (tier.name) {
-      case 'OnlyFans': return '#00AFF0';
-      case 'Fansly': return '#9333EA';
-      case 'ManyVids': return '#FF69B4';
+      case 'Instagram': return '#00AFF0';
+      case 'Twitter': return '#9333EA';
+      case 'Youtube': return '#FF69B4';
       default: return '#FF69B4';
     }
   };
